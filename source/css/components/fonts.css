@@ -1,0 +1,246 @@
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('AvenirNextCyr-Demi.eot');
+  src: local('Avenir Next Cyr Demi'), local('AvenirNextCyr-Demi'),
+    url('../fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Demi.woff') format('woff'), url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-ThinItalic.eot');
+  src: local('Avenir Next Cyr Thin Italic'), local('AvenirNextCyr-ThinItalic'),
+    url('../fonts/AvenirNextCyr-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-ThinItalic.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-Italic.eot');
+  src: local('Avenir Next Cyr Italic'), local('AvenirNextCyr-Italic'),
+    url('../fonts/AvenirNextCyr-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Italic.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-HeavyItalic.eot');
+  src: local('Avenir Next Cyr Heavy Italic'), local('AvenirNextCyr-HeavyItalic'),
+    url('../fonts/AvenirNextCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-HeavyItalic.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-MediumItalic.eot');
+  src: local('Avenir Next Cyr Medium Italic'), local('AvenirNextCyr-MediumItalic'),
+    url('../fonts/AvenirNextCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-MediumItalic.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-LightItalic.eot');
+  src: local('Avenir Next Cyr Light Italic'), local('AvenirNextCyr-LightItalic'),
+    url('../fonts/AvenirNextCyr-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-LightItalic.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('AvenirNextCyr-Medium.eot');
+  src: local('Avenir Next Cyr Medium'), local('AvenirNextCyr-Medium'),
+    url('../fonts/AvenirNextCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Medium.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr Ultra';
+  src: url('AvenirNextCyr-UltraLightIt.eot');
+  src: local('Avenir Next Cyr Ultra Light Italic'), local('AvenirNextCyr-UltraLightIt'),
+    url('../fonts/AvenirNextCyr-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-UltraLightIt.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-UltraLightIt.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('AvenirNextCyr-Regular.eot');
+  src: local('Avenir Next Cyr Regular'), local('AvenirNextCyr-Regular'),
+    url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr Ultra';
+  src: url('AvenirNextCyr-UltraLight.eot');
+  src: local('Avenir Next Cyr Ultra Light'), local('AvenirNextCyr-UltraLight'),
+    url('../fonts/AvenirNextCyr-UltraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-UltraLight.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-Heavy.eot');
+  src: local('Avenir Next Cyr Heavy'), local('AvenirNextCyr-Heavy'),
+    url('../fonts/AvenirNextCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Heavy.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next';
+  src: url('AvenirNextCyr-Bold.eot');
+  src: local('Avenir Next Cyr Bold'), local('AvenirNextCyr-Bold'),
+    url('../fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Bold.woff') format('woff'), url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-DemiItalic.eot');
+  src: local('Avenir Next Cyr Demi Italic'), local('AvenirNextCyr-DemiItalic'),
+    url('../fonts/AvenirNextCyr-DemiItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-DemiItalic.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-DemiItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+} */
+
+/* @font-face {
+  font-family: 'Avenir Next Cyr';
+  src: url('AvenirNextCyr-Thin.eot');
+  src: local('Avenir Next Cyr Thin'), local('AvenirNextCyr-Thin'),
+    url('../fonts/AvenirNextCyr-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/AvenirNextCyr-Thin.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Thin'), local('Roboto-Thin'), url('Robotothin.woff2') format('woff2'), url('Robotothin.woff') format('woff'), url('Robotothin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url('Robotothinitalic.woff2') format('woff2'), url('Robotothinitalic.woff') format('woff'), url('Robotothinitalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Light'), local('Roboto-Light'), url('Robotolight.woff2') format('woff2'), url('Robotolight.woff') format('woff'), url('Robotolight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('Robotolightitalic.woff2') format('woff2'), url('Robotolightitalic.woff') format('woff'), url('Robotolightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), local('Roboto-Regular'), url('../fonts/Roboto.woff2') format('woff2'),
+    url('../fonts/Roboto.woff') format('woff'), url('../fonts/Roboto.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Italic'), local('Roboto-Italic'), url('Robotoitalic.woff2') format('woff2'), url('Robotoitalic.woff') format('woff'), url('Robotoitalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Medium'), local('Roboto-Medium'), url('../fonts/Robotomedium.woff2') format('woff2'),
+    url('../fonts/Robotomedium.woff') format('woff'), url('../fonts/Robotomedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('Robotomediumitalic.woff2') format('woff2'), url('Robotomediumitalic.woff') format('woff'), url('Robotomediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+} */
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Bold'), local('Roboto-Bold'), url('../fonts/Robotobold.woff2') format('woff2'),
+    url('../fonts/Robotobold.woff') format('woff'), url('../fonts/Robotobold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* @font-face {
+	font-family: 'Roboto';
+	src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('Robotobolditalic.woff2') format('woff2'),
+		url('Robotobolditalic.woff') format('woff'), url('Robotobolditalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+} */
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Black'), local('Roboto-Black'), url('../fonts/Robotoblack.woff2') format('woff2'),
+    url('../fonts/Robotoblack.woff') format('woff'), url('../fonts/Robotoblack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+} */
+
+/* @font-face {
+  font-family: 'Roboto';
+  src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('Robotoblackitalic.woff2') format('woff2'), url('Robotoblackitalic.woff') format('woff'), url('Robotoblackitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+} */

@@ -24,7 +24,7 @@ const webp = require('gulp-webp'); // преобразование изобра�
 // // webserver
 var browserSync = require('browser-sync').create();
 
-var newer = require('gulp-newer'); // проверка на наличие файлов в папке сборки (при первом запуске) и делает сверку даты модификации
+// var newer = require('gulp-newer'); // проверка на наличие файлов в папке сборки (при первом запуске) и делает сверку даты модификации
 // var notify = require('gulp-notify');
 // var combine = require('stream-combiner2');//
 
@@ -88,7 +88,7 @@ gulp.task('css', function() {
 				autoprefixer({
 					browsers: ['last 10 version'],
 				}),
-				// cssnano(),
+				cssnano(),
 			])
 		)
 		.pipe(gulp.dest(path.build.style));

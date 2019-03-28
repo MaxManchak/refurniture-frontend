@@ -1,0 +1,37 @@
+.breadcrumb {
+  display: flex;
+
+  & li {
+    padding-left: 0;
+    padding-right: 30px;
+
+    &::before {
+      border-radius: none;
+      left: calc(100% - 23px);
+      top: 5px;
+      position: absolute;
+      width: 20px;
+      height: 10px;
+      border: none;
+      box-sizing: border-box;
+      content: '->';
+      color: #84b240;
+      line-height: 1;
+    }
+
+    &:last-child {
+      &::before {
+        display: none;
+      }
+    }
+
+    & a {
+      position: relative;
+      text-decoration: none;
+
+      &:hover {
+        color: #253d01;
+      }
+    }
+  }
+}

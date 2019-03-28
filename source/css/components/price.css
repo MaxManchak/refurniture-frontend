@@ -1,0 +1,79 @@
+.main__price {
+  position: relative;
+  background-image: url(../images/price-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-top: 80px;
+  padding-bottom: 120px;
+
+  & h2 {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  & .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, .4);
+  }
+}
+
+.price__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-bottom: 35px;
+
+  & .price {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: calc(33.3% - 30px);
+
+    & td {
+      color: rgb(235, 235, 235);
+    }
+
+    & td:first-child {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .price__wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    & .price {
+      width: calc(50% - 30px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .price__wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    & .price {
+      width: calc(100%);
+    }
+  }
+}

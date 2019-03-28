@@ -1,0 +1,56 @@
+.firstscreen {
+	position: relative;
+	background-image: url("../images/firstscreen-bg.jpg");
+	background-size: cover;
+	background-position: fixed;
+	background-attachment: fixed;
+	padding-top: 182px;
+	padding-bottom: 180px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	& h1 {
+		font-weight: bold;
+		font-size: 40px;
+		margin-top: 0;
+		line-height: normal;
+		text-align: center;
+		text-transform: uppercase;
+		color: #ffffff;
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		position: relative;
+		max-width: 680px;
+		margin-bottom: 30px;
+	}
+
+	&:before {
+		content: '';
+		background-color: rgba(0, 0, 0, .4);
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.firstscreen {
+		& h1 {
+			font-size: 30px;
+			line-height: 1.3;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.firstscreen {
+		& h1 {
+			font-size: 25px;
+			line-height: 1.3;
+		}
+	}
+}

@@ -1,4 +1,16 @@
+@import url(components/fonts.css);
 @import url(components/_variables.css);
 @import url(components/_normalize.css);
 @import url(components/_general-style.css);
 @import url(components/header.css);
+@import url(components/firstscreen.css);
+@import url(components/progress.css);
+@import url(components/we-do.css);
+@import url(components/gallery.css);
+@import url(components/price.css);
+@import url(components/guarantee.css);
+@import url(components/proposal.css);
+@import url(components/faq.css);
+@import url(components/footer.css);
+@import url(components/left-navigation.css);
+@import url(components/breadcrumb.css);

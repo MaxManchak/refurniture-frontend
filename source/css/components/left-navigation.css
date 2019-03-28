@@ -1,0 +1,25 @@
+.left-navigation {
+  & ul {}
+
+  & li {
+    padding-left: 0;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  & a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 31px;
+    color: #6F9535;
+    text-decoration: none;
+
+    &:hover {
+      color: #253d01;
+    }
+  }
+}
