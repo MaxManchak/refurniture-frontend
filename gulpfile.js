@@ -122,7 +122,7 @@ gulp.task('js', function() {
 					basepath: '@file',
 				})
 			)
-			.pipe(babel())
+			// .pipe(babel())
 			// .pipe(rigger())
 			.pipe(uglify())
 			.pipe(gulp.dest(path.build.js)) );

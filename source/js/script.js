@@ -1,4 +1,6 @@
 'use strict';
+@@include( "./components/wow.js" )
+new WOW().init();
 
 $('.spoiler__header').on('click', function(e) {
 	e.preventDefault();
@@ -16,7 +18,7 @@ $('.spoiler__header').on('click', function(e) {
 
 $('.gallery-tabs__list a').on('click', function(e) {
 	e.preventDefault();
-	let href = $(this).attr('href');
+	var href = $(this).attr('href');
 
 	if ($(this).parent().hasClass('active')) {
 		$(this).closest('.gallery-tabs__list').toggleClass('open');
@@ -44,7 +46,7 @@ $('.menuToggle').on('click', function(e) {
 });
 
 $('.form-group input').on('change', function() {
-	if ($(this).val() != '') {
+	if ($(this).val() !== '') {
 		$(this).prev().addClass('active');
 	} else {
 		$(this).prev().removeClass('active');
@@ -52,7 +54,7 @@ $('.form-group input').on('change', function() {
 });
 
 $('.form-group textarea').on('change', function() {
-	if ($(this).val() != '') {
+	if ($(this).val() !== '') {
 		$(this).prev().addClass('active');
 	} else {
 		$(this).prev().removeClass('active');
@@ -65,7 +67,7 @@ $('.form-group input')
 		$(this).prev().addClass('active');
 	})
 	.focusout(function() {
-		if ($(this).val() == '') {
+		if ($(this).val() === '') {
 			$(this).prev().removeClass('active');
 		}
 	});
@@ -76,7 +78,7 @@ $('.form-group textarea')
 		$(this).prev().addClass('active');
 	})
 	.focusout(function() {
-		if ($(this).val() == '') {
+		if ($(this).val() === '') {
 			$(this).prev().removeClass('active');
 		}
 	});
